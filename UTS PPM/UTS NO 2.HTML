@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Koperasi</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<script type="text/javascript">
+	var totalpinjaman;
+	var a = 0.02;
+	var b = 0.015;
+	var c = 0.01;
+	var arr = [];
+	var co = 0;
+	$(document).ready(function(){
+		$("#meminjam").click(function(){
+			var uangpinjaman = parseInt($("#pinjaman").val());
+			var jumcicilan = $("#cicilan").val();
+			var ab = "aa";
+			if(jumcicilan == "1"){
+				jumcicilan = parseInt(jumcicilan);
+				totalpinjaman = uangpinjaman + (uangpinjaman * a * jumcicilan);
+				alert("Total Pengembalian " + " : " + uangpinjaman + " * " + "2%" + " * " + jumcicilan + " = " + totalpinjaman);
+				arr.push(totalpinjaman);
+				co++;
+			}
+			else if(jumcicilan == "2"){
+				jumcicilan = parseInt(jumcicilan);
+				totalpinjaman = uangpinjaman + (uangpinjaman * a * jumcicilan);
+				alert("Total Pengembalian " + " : " + uangpinjaman + " * " + "2%" + " * " + jumcicilan + " = " + totalpinjaman);
+				arr.push(totalpinjaman);
+				co++;
+
+			}
+			else if(jumcicilan == "3"){
+				jumcicilan = parseInt(jumcicilan);
+				totalpinjaman = uangpinjaman + (uangpinjaman * a * jumcicilan);
+				alert("Total Pengembalian " + " : " + uangpinjaman + " * " + "2%" + " * " + jumcicilan + " = " + totalpinjaman);
+				arr.push(totalpinjaman);
+				co++;
+			}
+			else if(jumcicilan == "4"){
+				jumcicilan = parseInt(jumcicilan);
+				totalpinjaman = uangpinjaman + (uangpinjaman * a * jumcicilan);
+				alert("Total Pengembalian " + " : " + uangpinjaman + " * " + "2%" + " * " + jumcicilan + " = " + totalpinjaman);
+				arr.push(totalpinjaman);
+				co++;
+			}
+			else if(jumcicilan == "5"){
+				jumcicilan = parseInt(jumcicilan);
+				totalpinjaman = uangpinjaman + (uangpinjaman * a * jumcicilan);
+				alert("Total Pengembalian " + " : " + uangpinjaman + " * " + "2%" + " * " + jumcicilan + " = " + totalpinjaman);
+				arr.push(totalpinjaman);
+				co++;
+			}
+			else if(jumcicilan == "6"){
+				jumcicilan = parseInt(jumcicilan);
+				totalpinjaman = uangpinjaman + (uangpinjaman * a * jumcicilan);
+				alert("Total Pengembalian " + " : " + uangpinjaman + " * " + "2%" + " * " + jumcicilan + " = " + totalpinjaman);
+				arr.push(totalpinjaman);
+				co++;
+			}
+			else if(jumcicilan == "7"){
+				jumcicilan = parseInt(jumcicilan);
+				totalpinjaman = uangpinjaman + (uangpinjaman * b * jumcicilan);
+				alert("Total Pengembalian " + " : " + uangpinjaman + " * " + "1.5%" + " * " + jumcicilan + " = " + totalpinjaman);
+				arr.push(totalpinjaman);
+				co++;
+			}
+			else if(jumcicilan == "8"){
+				jumcicilan = parseInt(jumcicilan);
+				totalpinjaman = uangpinjaman + (uangpinjaman * b * jumcicilan);
+				alert("Total Pengembalian " + " : " + uangpinjaman + " * " + "1.5%" + " * " + jumcicilan + " = " + totalpinjaman);
+				arr.push(totalpinjaman);
+				co++;
+			}
+			else if(jumcicilan == "9"){
+				jumcicilan = parseInt(jumcicilan);
+				totalpinjaman = uangpinjaman + (uangpinjaman * b * jumcicilan);
+				alert("Total Pengembalian " + " : " + uangpinjaman + " * " + "1.5%" + " * " + jumcicilan + " = " + totalpinjaman);
+				arr.push(totalpinjaman);
+				co++;
+			}
+			else if(jumcicilan == "10"){
+				jumcicilan = parseInt(jumcicilan);
+				totalpinjaman = uangpinjaman + (uangpinjaman * b * jumcicilan);
+				alert("Total Pengembalian " + " : " + uangpinjaman + " * " + "1.5%" + " * " + jumcicilan + " = " + totalpinjaman);
+				arr.push(totalpinjaman);
+				co++;
+			}
+			else if(jumcicilan == "11"){
+				jumcicilan = parseInt(jumcicilan);
+				totalpinjaman = uangpinjaman + (uangpinjaman * b * jumcicilan);
+				alert("Total Pengembalian " + " : " + uangpinjaman + " * " + "1.5%" + " * " + jumcicilan + " = " + totalpinjaman);
+				arr.push(totalpinjaman);
+				co++;
+			}
+			else if(jumcicilan == "12"){
+				jumcicilan = parseInt(jumcicilan);
+				totalpinjaman = uangpinjaman + (uangpinjaman * b * jumcicilan);
+				alert("Total Pengembalian " + " : " + uangpinjaman + " * " + "1.5%" + " * " + jumcicilan + " = " + totalpinjaman);
+				arr.push(totalpinjaman);
+				co++;
+			}
+			else{
+				jumcicilan = parseInt(jumcicilan);
+				totalpinjaman = uangpinjaman + (uangpinjaman * c * jumcicilan);
+				alert("Total Pengembalian " + " : " + uangpinjaman + " * " + "1%" + " * " + jumcicilan + " = " + totalpinjaman);
+				arr.push(totalpinjaman);
+				co++;
+			}
+		});
+		$("#list").click(function(){
+			document.write(arr[0]);
+			document.write(arr[1]);
+		});
+		var id = 0;
+		var back = 1;
+		var total = 0;
+		var average = 0;
+		var baru = 0;
+		var masuk = 1;
+			function addnilai(){
+				id = id + 1
+				var data1 = prompt("Input nama? ");
+				var data2 =  prompt("Input nama? ");
+				if($.isNumeric(data2)==true && data1!=null){
+					var id1 = id +1;
+					total = total + parseInt(data2);
+					average = total / id1;
+					$("tbody").append("<tr class='inidata'>"+
+										"<th scope='row'>"+id+"</th>"+
+										"<td>"+data1+"</td>"
+					+"<td>"+data2+"</td>"
+				+"<td><button class='btn btn-danger del'>[X] Delete</button></td>"
+					+"</tr>");
+					$("#ratarata").html(average);
+				}
+			}
+		$(document).ready(function(){
+			var delBtn = $("tbody");
+			delBtn.on("click", ".del", function(){
+				alert("aa");
+				var t = $(this);
+				var note = t.parent();
+				var note2 = note.parent();
+				note2.remove();
+			});
+		});
+   //  		$("#angka").click(function(){
+	  //   		var angka = parseInt($("#input").val());
+	  //   		total = total + angka;
+	  //   		totalangka = totalangka + 1;
+	  //   		alert(total);
+   //  		});
+   //  		$("#average").click(function(){
+	  //   		var average = total / totalangka;
+	  //   		alert(average);
+   //  		});
+		 //    //$("#myBtn").click(function(){
+	  //   	//	var str = $("#myInput").val();
+	  //   	//	alert(str);
+			// //});
+
+   //  	// var angka = int($("#input"));
+   //  	// total = total + angka;
+    });
+// function list(){
+// 	document.write(arr);
+// }
+</script>
+<body>
+	<div data-role="page" id="page1">
+		<form>
+        <input type="textbox" id="pinjaman" name="textpinjam"> Jumlah Pinjaman
+        <input type="textbox" id="cicilan" value="textcicilan"> Cicilan
+   		<input type="button" id="meminjam" value="Pinjam">
+        <a href="#page2">Informasi Cicilan</a>
+        </form>
+	</div>
+	<div data-role="page" id="page2">
+		<script type="text/javascript">
+			document.write(arr);
+		</script>
+			<div class="container">
+		<div class="header">
+			<h1 style="text-align: center;">Kelas Tekweb A</h1>
+		</div>
+		<div class="button" style="padding-left: 500px; padding-top: 20px">
+			<button onclick="addnilai()" style="background-color: blue; color: white;"> [+] Add Data </button>
+		</div>
+		<div>
+			<h4 style="text-align: center; padding-top: 30px;">Rata - rata : <span id="ratarata"></span></h4>
+		</div>
+		<div>
+			<table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Name</th>
+        <th>Score</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+		</div>
+	</div>
+		<button id="list">list</button>
+		<a href="#page1">Peminjaman</a>
+	</div>
+	<div data-role="page" id="page3">
+		<a href="#page1">pindah Page1</a>
+	</div>
+</body>
+</html>

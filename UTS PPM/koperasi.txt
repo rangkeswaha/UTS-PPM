@@ -1,0 +1,6 @@
+nama
+ktp
+kartu anggota
+hak keuangan
+hak manage pegawai
+bunga peminjaman
